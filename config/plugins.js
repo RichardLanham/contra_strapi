@@ -3,7 +3,8 @@ const crypto = require("crypto");
 module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
-      jwtSecret: env("JWT_3233") || crypto.randomBytes(16).toString("base64"),
+      jwtSecret:
+        env("ADMIN_JWT_SECRET") || crypto.randomBytes(16).toString("base64"),
     },
   },
   sitemap: {
@@ -18,8 +19,7 @@ module.exports = ({ env }) => ({
     config: {
       provider: "sendgrid",
       providerOptions: {
-        apiKey:
-          "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",
+        apiKey: env("SENDGRID"),
       },
       settings: {
         defaultFrom: "dancers@contranooga.us",
