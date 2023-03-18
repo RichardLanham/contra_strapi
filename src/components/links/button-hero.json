@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_hero_buttons",
+  "info": {
+    "name": "Button-hero",
+    "displayName": "Tab",
+    "icon": "fingerprint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "regex": "^$|^[a-zA-Z/-]+$"
+    },
+    "url": {
+      "type": "string"
+    },
+    "urlIsLocal": {
+      "default": false,
+      "type": "boolean"
+    },
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["button", "link", "image", "none"],
+      "default": "link"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

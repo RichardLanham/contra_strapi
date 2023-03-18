@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_flex_group",
+  "info": {
+    "name": "FlexGroup",
+    "displayName": "Flex Group",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "group": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.flexgroup"
+    }
+  }
+}

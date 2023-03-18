@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_footer_buttons",
+  "info": {
+    "name": "Button-footer",
+    "displayName": "Footer button",
+    "icon": "fingerprint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": false,
+      "default": ""
+    },
+    "text": {
+      "type": "string"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["button", "link", "image"],
+      "default": "link"
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

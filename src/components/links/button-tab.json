@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_tab_buttons",
+  "info": {
+    "name": "Button-tab",
+    "displayName": "Tab",
+    "icon": "fingerprint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "regex": "^$|^[a-zA-Z/-]+$"
+    },
+    "label": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["button", "link", "image"],
+      "default": "link"
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.inputs"
+    }
+  }
+}

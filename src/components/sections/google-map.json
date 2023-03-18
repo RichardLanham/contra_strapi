@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_slices_google_map",
+  "info": {
+    "name": "GoogleMap",
+    "displayName": "Google Map",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "gmap": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.gmap"
+    }
+  }
+}

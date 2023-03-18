@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_playlists",
+  "info": {
+    "displayName": "playlist"
+  },
+  "options": {},
+  "attributes": {
+    "playlistItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}

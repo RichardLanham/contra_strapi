@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_scroll_nexts",
+  "info": {
+    "name": "ScrollNext",
+    "displayName": "Scroll Next",
+    "icon": "search-dollar"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    }
+  }
+}

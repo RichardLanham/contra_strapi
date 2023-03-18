@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_slices_tabs",
+  "info": {
+    "name": "Tabs",
+    "displayName": "Tabs",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.tab-column"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.inputs"
+    }
+  }
+}

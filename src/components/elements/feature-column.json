@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_slices_feature_columns",
+  "info": {
+    "name": "FeatureColumn",
+    "displayName": "Feature column",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "homeTabType": {
+      "type": "enumeration",
+      "enum": ["button", "link", "image", "none"],
+      "default": "none"
+    },
+    "tab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-tab"
+    }
+  }
+}

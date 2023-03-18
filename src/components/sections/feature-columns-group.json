@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_slices_feature_columns_groups",
+  "info": {
+    "name": "FeatureColumnsGroup",
+    "displayName": "DeepTabs",
+    "icon": "star-of-life"
+  },
+  "options": {},
+  "attributes": {
+    "tabs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.feature-column"
+    },
+    "inputs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.inputs"
+    }
+  }
+}

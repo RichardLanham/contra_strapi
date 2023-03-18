@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_scroller",
+  "info": {
+    "name": "Scroller",
+    "displayName": "Scroller",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.scroll-next"
+    }
+  }
+}

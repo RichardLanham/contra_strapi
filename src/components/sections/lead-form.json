@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_sections_lead_forms",
+  "info": {
+    "name": "Lead form",
+    "displayName": "Lead form",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "subscribe to our email"
+    },
+    "emailPlaceHolder": {
+      "type": "string",
+      "default": "email",
+      "required": true
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "location": {
+      "type": "string"
+    },
+    "phonePlaceHolder": {
+      "type": "string",
+      "default": "phone",
+      "required": true
+    },
+    "blurb": {
+      "type": "string"
+    },
+    "namePlaceHolder": {
+      "type": "string",
+      "default": "your name",
+      "required": true
+    }
+  }
+}

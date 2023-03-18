@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_ckeditors",
+  "info": {
+    "displayName": "Ckeditor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "richtext": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

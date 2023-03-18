@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_slices_inputs",
+  "info": {
+    "name": "Inputs",
+    "displayName": "Richtext | Playlist | Map",
+    "icon": "play-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "url": {
+      "type": "string"
+    },
+    "urlType": {
+      "type": "enumeration",
+      "enum": ["video", "image", "web"],
+      "required": false,
+      "default": "video"
+    },
+    "richtext": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "playlist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.playlist"
+    },
+    "googleMap": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.gmap"
+    }
+  }
+}
