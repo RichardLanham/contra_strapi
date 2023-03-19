@@ -19,6 +19,7 @@ module.exports = ({ env }) => ({
     config: {
       provider: "sendgrid",
       providerOptions: {
+        template_id: env("SENDGRIDTEMPLATEID"),
         apiKey: env("SENDGRID"),
       },
       settings: {
