@@ -9,6 +9,18 @@
   "attributes": {
     "slug": {
       "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "blurb": {
+      "type": "string"
+    },
+    "load": {
+      "type": "enumeration",
+      "enum": ["auto", "footer"],
+      "required": true,
+      "default": "auto"
     }
   }
 }
