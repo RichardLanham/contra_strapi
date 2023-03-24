@@ -71,16 +71,11 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "link": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "links.link"
     }
   }
