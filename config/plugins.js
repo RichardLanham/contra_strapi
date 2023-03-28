@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 require("dotenv").config();
-const sgMail = require("@sendgrid/mail");
-sgMail.setApiKey(process.env.SENDGRID);
+// const sgMail = require("@sendgrid/mail");
+// sgMail.setApiKey(process.env.SENDGRID);
 module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
@@ -21,8 +21,8 @@ module.exports = ({ env }) => ({
     config: {
       provider: "sendgrid",
       providerOptions: {
-        template_id: process.env.SENDGRIDTEMPLATE,
-        apiKey: process.env.SENDGRID,
+        template_id: env("SENDGRIDTEMPLATE"),
+        apiKey: env("SENDGRID"),
       },
       settings: {
         defaultFrom: "dancers@contranooga.us",
