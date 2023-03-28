@@ -1,5 +1,7 @@
 const crypto = require("crypto");
 
+// const sgMail = require("@sendgrid/mail");
+// sgMail.setApiKey(process.env.SENDGRID);
 module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
@@ -19,8 +21,8 @@ module.exports = ({ env }) => ({
     config: {
       provider: "sendgrid",
       providerOptions: {
-        template_id: env("SENDGRIDTEMPLATEID"),
-        apiKey: env("SENDGRID"),
+        template_id: process.env.SENDGRIDTEMPLATE,
+        apiKey: process.env.SENDGRID,
       },
       settings: {
         defaultFrom: "dancers@contranooga.us",
