@@ -55,6 +55,7 @@
         "sections.inputs",
         "sections.large-video",
         "sections.flex-group",
+        "sections.flex",
         "sections.google-map",
         "sections.hero",
         "sections.lead-form",

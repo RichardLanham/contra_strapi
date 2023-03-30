@@ -23,6 +23,16 @@
       "required": false,
       "allowedTypes": ["images"]
     },
+    "size": {
+      "type": "enumeration",
+      "enum": ["thumb", "small", "medium", "large"],
+      "default": "thumb"
+    },
+    "float": {
+      "type": "enumeration",
+      "enum": ["left", "right", "none"],
+      "default": "left"
+    },
     "button": {
       "type": "component",
       "repeatable": false,
@@ -32,6 +42,11 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.rich-text"
+    },
+    "playlist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.playlist"
     },
     "googleMap": {
       "type": "component",

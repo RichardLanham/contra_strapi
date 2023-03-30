@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_flex",
+  "info": {
+    "name": "Flex",
+    "displayName": "Flex",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "box": {
+      "label": "boxes",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.hero"
+    }
+  }
+}
