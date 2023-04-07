@@ -1,7 +1,7 @@
 "use strict";
 module.exports = () => ({});
 ("use strict");
-
+console.log("pagesReport");
 module.exports = {
   oneReport: async () => {
     console.log("one");

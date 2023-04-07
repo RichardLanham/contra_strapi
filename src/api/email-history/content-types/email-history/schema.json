@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_histories",
+  "info": {
+    "singularName": "email-history",
+    "pluralName": "email-histories",
+    "displayName": "email_history",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "leadFormId": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "day": {
+      "type": "string"
+    }
+  }
+}

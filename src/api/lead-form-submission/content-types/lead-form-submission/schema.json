@@ -39,8 +39,8 @@
       "type": "string",
       "maxLength": 1000
     },
-    "uuid": {
-      "type": "uid"
+    "last_email_date": {
+      "type": "datetime"
     }
   }
 }

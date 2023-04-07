@@ -1,7 +1,7 @@
 module.exports = {
   async afterCreate(event, data) {
     const { result } = event;
-
+    console.log("after LEADFORM");
     try {
       await strapi.plugins["email"].services.email.send({
         to: result.email,
