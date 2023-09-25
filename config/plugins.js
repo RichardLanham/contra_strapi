@@ -3,14 +3,6 @@ require("dotenv").config();
 // const sgMail = require("@sendgrid/mail");
 // sgMail.setApiKey(process.env.SENDGRID);
 module.exports = ({ env }) => ({
-  graphql: {
-    config: {
-      endpoint: "/graphql",
-      apolloServer: {
-        introspection: true,
-      },
-    },
-  },
   "users-permissions": {
     config: {
       jwtSecret:
@@ -29,8 +21,9 @@ module.exports = ({ env }) => ({
     config: {
       provider: "sendgrid",
       providerOptions: {
-        template_id: env("SENDGRIDTEMPLATE"),
-        apiKey: env("SENDGRID"),
+        template_id: "547dcae92cb04ca1a3234fe6b5140bd8",
+        apiKey:
+          "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",
       },
       settings: {
         defaultFrom: "dancers@contranooga.us",
