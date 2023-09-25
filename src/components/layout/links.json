@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_links",
+  "info": {
+    "displayName": "Links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}

@@ -3,6 +3,14 @@ require("dotenv").config();
 // const sgMail = require("@sendgrid/mail");
 // sgMail.setApiKey(process.env.SENDGRID);
 module.exports = ({ env }) => ({
+  graphql: {
+    config: {
+      endpoint: "/graphql",
+      apolloServer: {
+        introspection: true,
+      },
+    },
+  },
   "users-permissions": {
     config: {
       jwtSecret:
