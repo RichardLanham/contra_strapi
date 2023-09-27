@@ -8,7 +8,7 @@ module.exports = {
       await strapi.plugins["email"].services.email
         .send({
           to: result.email,
-          template_id: "d-2bee3b96bc8b42ada98622afe70fb820", //result.template,
+          template_id: result.template,
           dynamic_template_data: {
             email: result.email,
             name: result.name,
