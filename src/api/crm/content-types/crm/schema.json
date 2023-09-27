@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "crms",
+  "info": {
+    "singularName": "crm",
+    "pluralName": "crms",
+    "displayName": "Crm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dance_day": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "template": {
+      "type": "string"
+    }
+  }
+}
