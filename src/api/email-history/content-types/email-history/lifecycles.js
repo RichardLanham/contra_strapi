@@ -12,7 +12,7 @@ module.exports = {
           dynamic_template_data: {
             email: result.email,
             name: result.name,
-            id: result.leadFormid,
+            id: result.leadFormId,
             info: result.info,
             day: result.day,
           },
